@@ -1,9 +1,19 @@
 :root {
-  --primary-color: #ffce15
-} 
+  --cor-1: #ffce15;
+  --cor-2: #161616;
+  --cor-3: #fbf9f8;
+  --cor-4: #8b8489;
+  --cor-5: #7e6710;
+}
 
 * {
   font-family: Arial, sans-serif;
+}
+
+.wrapperContainerHeader {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 header {
@@ -20,18 +30,39 @@ header {
 
 .nav-bar {
   display: flex;
-  border-bottom: 1px solid var(--primary-color);
-  margin: .5em;
+  border-bottom: 1px solid var(--cor-1);
+  margin: 0.5em;
 }
 
 .nav-bar a {
   justify-content: space-around;
   padding: 1em;
-  
+
   text-decoration: none;
   color: white;
 }
 
 .nav-bar a:hover {
   transform: scale(1.2);
+}
+
+.wrapperContainerSobre {
+  padding-top: 50px;
+  background-color: var(--cor-3);
+}
+
+#sobre {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#sobre img {
+  width: 400px;
+  border-radius: 100px 0 100px 0;
+  padding: 
+}
+
+#sobre h2 {
+  color: var(--cor-5)
 }
