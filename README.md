@@ -1,2 +1,2 @@
 # electrical-engineer-business-page
-This is a page that I built for my father, who is an electrical engineer.
+This page was created to showcase my father's work as an electrical engineer.
