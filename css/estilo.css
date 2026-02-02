@@ -111,3 +111,36 @@ header {
 #eletromedicina h2 {
   color: var(--cor-5);
 }
+
+
+/* Formação */
+
+.wrapperContainerFormacao {
+  padding: 50px 0;
+  background-color: var(--cor-3);
+}
+
+#formacao {
+  display: flex;
+  justify-content: space-around;
+  border-collapse: collapse;
+
+}
+
+#formacao img {
+  width: 400px;
+  height: 300px;
+  border-radius: 50%;
+  padding-left: 100px;
+}
+
+#formacao .conteudo {
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px;
+  line-height: 2;
+}
+
+#formacao h2 {
+  color: var(--cor-5);
+}
