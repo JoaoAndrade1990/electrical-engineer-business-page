@@ -144,3 +144,18 @@ header {
 #formacao h2 {
   color: var(--cor-5);
 }
+
+#burguer-menu-icon {
+  display: none;
+}
+
+@media (max-width: 768px){
+  
+  .nav-bar {
+    display: none;
+  }
+
+  #burguer-menu-icon {
+    background-color: var(--cor-3);
+  }
+}
