@@ -6,17 +6,17 @@
   --cor-5: #c9a00a;
 }
 
+@media (min-width: 769px) {
+
 * {
   font-family: Arial, sans-serif;
 }
-
 
 /* Header */
 
 .wrapperContainerHeader {
   position: sticky;
   top: 0;
-  z-index: 1000;
 }
 
 header {
@@ -28,7 +28,7 @@ header {
 
 #img-logo {
   display: inline-block;
-  width: 250px;
+  width: 120px;
 }
 
 .nav-bar {
@@ -47,7 +47,6 @@ header {
 .nav-bar a:hover {
   transform: scale(1.2);
 }
-
 
 /* Sobre */
 
@@ -79,7 +78,6 @@ header {
   color: var(--cor-5);
 }
 
-
 /* Eletromedicina */
 
 .wrapperContainerEletromedicina {
@@ -91,7 +89,6 @@ header {
   display: flex;
   justify-content: space-around;
   border-collapse: collapse;
-
 }
 
 #eletromedicina img {
@@ -112,7 +109,6 @@ header {
   color: var(--cor-5);
 }
 
-
 /* Formação */
 
 .wrapperContainerFormacao {
@@ -124,7 +120,6 @@ header {
   display: flex;
   justify-content: space-around;
   border-collapse: collapse;
-
 }
 
 #formacao img {
@@ -149,13 +144,24 @@ header {
   display: none;
 }
 
-@media (max-width: 768px){
-  
-  .nav-bar {
-    display: none;
-  }
+}
 
-  #burguer-menu-icon {
-    background-color: var(--cor-3);
-  }
+@media (max-width: 768px) {
+  
+.nav-bar {
+  display: none
+}
+
+#burguer-menu-icon {
+  display: block;
+  width: 36px;
+  height: auto;
+  margin-right: 1rem;
+  background-color: var(--cor-3);
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+
+}
+
 }
