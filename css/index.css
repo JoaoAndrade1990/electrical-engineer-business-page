@@ -2,7 +2,7 @@
   --cor-1: #ffce15;
   --cor-2: #161616;
   --cor-3: #fbf9f8;
-  --cor-4: #e4eeef;
+  --cor-4: #ececd0;
   --cor-5: #c9a00a;
 }
 
@@ -12,7 +12,7 @@
 
 
 
-
+/* Dispositivos com largura acima de 769px */
 @media (min-width: 769px) {
 
 /* Header */
@@ -151,6 +151,8 @@ header {
 
 
 
+
+/* Dispositivos com largura até 768px */
 @media (max-width: 768px) {
 
 /* Header */
