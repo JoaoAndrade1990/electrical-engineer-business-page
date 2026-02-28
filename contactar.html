@@ -8,18 +8,19 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <!-- AOS - Animate on Scroll Library - 
     Permite fazer animações, ao rola a página -->
-    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
   </head>
 
   <body>
     <div class="wrapperContainerHeader">
       <header>
-        <img
-          href="index.html"
-          id="img-logo"
-          src="assets/fa-eng-eletrotecnico-logo.png"
-          alt="logo"
-        />
+        <a href="index.html">
+          <img
+            id="img-logo"
+            src="assets/fa-eng-eletrotecnico-logo.png"
+            alt="logo"
+          />
+        </a>
         <nav class="nav-bar">
           <a href="#sobre">Sobre</a>
           <a href="#formacao">Formação</a>
@@ -35,22 +36,25 @@
       </header>
     </div>
 
-      <section id="formulario">
-        <form action="#">
+    <section id="formulario">
+      <form action="#">
+        <label for="usuario">Nome</label>
+        <input id="usuario" type="text" title="Nome de Usuário" />
 
-            <label for="usuario"></label>
-            <input id="usuario" type="text" title="Nome de Usuário">
+        <label for="email">E-mail</label>
+        <input id="email" type="email" title="E-mail" />
 
-            <label for="email"></label>
-            <input id="email" type="email" title="E-mail">
+        <label for="textarea">Mensagem</label>
+        <textarea
+          cols="40"
+          rows="10"
+          maxlength="255"
+          title="Mensagem"
+        ></textarea>
+      </form>
+    </section>
 
-            <label for="textarea"></label>
-            <textarea cols="40" rows="10" maxlength="255" title="Mensagem"></textarea>
-
-        </form>
-      </section>
-
-     <footer>
+    <footer>
       <p>© João Andrade Web Development</p>
     </footer>
 
@@ -58,6 +62,8 @@
     <!-- AOS - Animate on Scroll Library - 
     Permite fazer animações, ao rola a página -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>AOS.init();</script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
