@@ -2,7 +2,7 @@
   --cor-1: #ffce15;
   --cor-2: #161616;
   --cor-3: #fbf9f8;
-  --cor-4: #fff7d2;
+  --cor-4: #000000;
   --cor-5: #c9a00a;
 }
 
@@ -106,6 +106,7 @@ header {
   flex-direction: column;
   padding: 0 100px;
   line-height: 2;
+  color: white;
 }
 
 #eletromedicina h2 {
