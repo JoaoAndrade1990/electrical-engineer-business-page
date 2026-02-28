@@ -1,0 +1,116 @@
+:root {
+  --cor-1: #ffce15;
+  --cor-2: #161616;
+  --cor-3: #fbf9f8;
+  --cor-4: #000000;
+  --cor-5: #c9a00a;
+}
+
+* {
+  font-family: Arial, sans-serif;
+}
+
+/* Dispositivos com largura acima de 769px */
+@media (min-width: 769px) {
+  /* Header */
+
+  .wrapperContainerHeader {
+    position: sticky;
+    top: 0;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+  }
+
+  #img-logo {
+    display: inline-block;
+    width: 120px;
+  }
+
+  .nav-bar {
+    display: flex;
+    border-bottom: 1px solid var(--cor-1);
+    margin: 0.5em;
+  }
+
+  .nav-bar a {
+    justify-content: space-around;
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+  }
+
+  .nav-bar a:hover {
+    transform: scale(1.2);
+  }
+
+  /* Formulário */
+
+  #formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+  }
+
+  #formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  #formulario input,
+  #formulario textarea {
+    padding: 10px;
+    border: 1px solid var(--cor-1);
+    border-radius: 5px;
+  }
+
+  #burguer-menu-icon {
+    display: none;
+  }
+}
+
+/* Dispositivos com largura até 768px */
+@media (max-width: 768px) {
+  /* Header */
+
+  .wrapperContainerHeader {
+    position: sticky;
+    top: 0;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+  }
+
+  #img-logo {
+    display: inline-block;
+    width: 120px;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  #burguer-menu-icon {
+    display: block;
+    background-color: var(--cor-3);
+    margin: 20px;
+  }
+
+
+
+
+  
+}
