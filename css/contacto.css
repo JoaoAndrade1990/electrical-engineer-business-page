@@ -12,7 +12,8 @@
 
 /* Dispositivos com largura acima de 769px */
 @media (min-width: 769px) {
-  /* Header */
+
+  /* HEADER */
 
   .wrapperContainerHeader {
     position: sticky;
@@ -28,7 +29,7 @@
 
   #img-logo {
     display: inline-block;
-    width: 120px;
+    width: 200px;
   }
 
   .nav-bar {
@@ -48,7 +49,7 @@
     transform: scale(1.2);
   }
 
-  /* Formulário */
+  /* FORMULÁRIO */
 
   #formulario {
     display: flex;
@@ -56,6 +57,7 @@
     align-items: center;
     flex-direction: column;
     padding: 100px;
+    
   }
 
   #formulario form {
@@ -64,13 +66,26 @@
     gap: 20px;
     width: 100%;
     max-width: 500px;
+    background-color: var(--cor-3);
   }
 
-  #formulario input,
-  #formulario textarea {
-    padding: 10px;
-    border: 1px solid var(--cor-1);
+  #formulario label {
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  #formulario input {
+    padding: 20px;
+    border: 2px solid var(--cor-1);
     border-radius: 5px;
+    margin: 0px 20px 0px 20px;
+  }
+
+  #formulario textarea {
+    padding: 20px;
+    border: 2px solid var(--cor-1);
+    border-radius: 5px;
+    margin: 0px 20px 20px;
   }
 
   #burguer-menu-icon {
@@ -80,7 +95,8 @@
 
 /* Dispositivos com largura até 768px */
 @media (max-width: 768px) {
-  /* Header */
+
+  /* HEADER */
 
   .wrapperContainerHeader {
     position: sticky;
@@ -108,9 +124,5 @@
     background-color: var(--cor-3);
     margin: 20px;
   }
-
-
-
-
   
 }

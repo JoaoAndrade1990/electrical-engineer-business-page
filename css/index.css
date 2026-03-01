@@ -15,7 +15,7 @@
 /* Dispositivos com largura acima de 769px */
 @media (min-width: 769px) {
 
-/* Header */
+/* HEADER */
 
 .wrapperContainerHeader {
   position: sticky;
@@ -31,7 +31,7 @@ header {
 
 #img-logo {
   display: inline-block;
-  width: 120px;
+  width: 200px;
 }
 
 .nav-bar {
@@ -51,7 +51,7 @@ header {
   transform: scale(1.2);
 }
 
-/* Sobre */
+/* SOBRE */
 
 .wrapperContainerSobre {
   padding: 50px 0;
@@ -66,8 +66,9 @@ header {
 
 #sobre img {
   width: 400px;
+  height: 300px;
   border-radius: 50%;
-  padding-left: 100px;
+  margin-left: 100px;
 }
 
 #sobre .conteudo {
@@ -81,7 +82,7 @@ header {
   color: var(--cor-5);
 }
 
-/* Eletromedicina */
+/* ELETROMEDICINA */
 
 .wrapperContainerEletromedicina {
   padding: 50px 0;
@@ -97,8 +98,8 @@ header {
 #eletromedicina img {
   width: 400px;
   height: 300px;
-  border-radius: 50%;
-  padding-right: 100px;
+  border-radius: 15%;
+  margin-right: 100px;
 }
 
 #eletromedicina .conteudo {
@@ -113,7 +114,7 @@ header {
   color: var(--cor-5);
 }
 
-/* Formação */
+/* FORMAÇÃO */
 
 .wrapperContainerFormacao {
   padding: 50px 0;
@@ -129,8 +130,8 @@ header {
 #formacao img {
   width: 400px;
   height: 300px;
-  border-radius: 50%;
-  padding-left: 100px;
+  border-radius: 15%;
+  margin-left: 100px;
 }
 
 #formacao .conteudo {
@@ -199,9 +200,10 @@ header {
 }
 
 #sobre img {
-  width: 400px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
-  padding-left: 100px;
+  margin-left: 100px;
 }
 
 #sobre .conteudo {
